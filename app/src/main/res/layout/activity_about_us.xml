@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- First CardView -->
+
+
+
+            <!-- Fourth CardView -->
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/down" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="535dp"
+                android:layout_height="228dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/name" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/Widget.Material3.MaterialTimePicker.Display.HelperText"
+                android:layout_width="match_parent"
+                android:layout_height="883dp"
+                android:fontFamily="monaco"
+                android:gravity="center"
+                android:text="\n\n\nCrick_IT, a pioneering project crafted by the talented cohort of Air University students from the batch of BSCS-F-20 under the astute guidance of Professor Imran, is poised to revolutionize cricket analysis, with its primary focus on providing a cost-effective solution to analyze the bowler's angle.\n\nAt the heart of Cric_IT lies a novel technology designed to precisely measure and assess the angle of the bowler during their delivery stride. This innovative feature offers coaches, players, and enthusiasts alike an invaluable tool to scrutinize and refine bowling techniques without incurring prohibitive costs associated with traditional biomechanical analysis systems.\n\nBy leveraging cutting-edge image processing algorithms and motion tracking techniques, Cric_IT accurately captures the bowler's movements in real-time, allowing for instant feedback and adjustments. Whether it's assessing the alignment of the delivery stride, the release point, or the trajectory of the ball, Cric_IT provides comprehensive insights to enhance performance and prevent injuries.\n\nThe significance of this capability extends beyond professional cricket academies to grassroots levels, where access to advanced biomechanical analysis has been limited by financial constraints. Cric_IT democratizes this technology, making it accessible to aspiring bowlers across diverse socio-economic backgrounds, thereby fostering talent development and promoting inclusivity within the sport.
+
+\n\nMoreover, Cric_IT's user-friendly interface and intuitive design ensure seamless integration into training sessions and coaching programs. Coaches can utilize the platform to identify biomechanical flaws, tailor training regimens, and track progress over time, ultimately enabling bowlers to optimize their performance and reach their full potential.\n\nAs Cric_IT continues to evolve, driven by a commitment to innovation and excellence, it reaffirms Air University's dedication to nurturing future leaders in technology and sports. With its groundbreaking approach to cricket analysis, Cric_IT heralds a new era of accessible, data-driven coaching and player development, empowering individuals to excel on the field and beyond.
+
+
+
+
+
+\n\n\n" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="137.5dp" >>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/sir_imran" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="261dp"
+                    android:layout_height="161dp"
+                    app:srcCompat="@drawable/imr" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="137.5dp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView7"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true" >
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/zoh" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="137.5dp" >>
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="276dp"
+                    android:layout_height="275dp"
+                    app:srcCompat="@drawable/awais" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView8"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true" >
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="282dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/aw" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView10"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="137.5dp" >>
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bilal" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView12"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true" >
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="286dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bl" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="137.5dp" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="274dp"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/adnan" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView15"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true" >
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ad" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/img_20240513_wa0003___copy" />
+
+
+            <!-- ImageView 1 -->
+
+            <!-- ImageView 2 -->
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

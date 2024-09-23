@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signbag"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="333dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="LOG IN TO YOUR ACCOUNT"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Widget.Material3.Snackbar.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="right|top"
+        android:text="DON'T HAVE AN ACCOUNT"
+        android:textColor="#CDDC39"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/googleAuth"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="8dp"
+        android:text="SIGNUP"
+        android:textColor="#3F51B5"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/googleAuth"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/googleAuth"
+        android:layout_width="324dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="328dp"
+        android:text="SIGN IN WITH GOOGLE"
+        android:textColorLink="#BC1AFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/googleAuth"
+        app:layout_constraintEnd_toEndOf="@+id/googleAuth"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/googleAuth"
+        app:layout_constraintTop_toTopOf="@+id/googleAuth"
+        app:layout_constraintVertical_bias="0.55"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔  Or  ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/googleAuth"
+        app:layout_constraintStart_toStartOf="@+id/googleAuth"
+        app:layout_constraintTop_toBottomOf="@+id/googleAuth" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="262dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ENTER YOUR EMAIL"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorHint="#5BC1A4A4"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="265dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ENTER YOUR PASSWORD"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorHint="#5BC1A4A4"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        style="@style/Widget.Material3.Button.TextButton.Snackbar"
+        android:layout_width="169dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPass"
+        app:layout_constraintStart_toStartOf="@+id/editTextPass"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPass"
+        app:rippleColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
